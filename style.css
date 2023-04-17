@@ -1,24 +1,30 @@
-*{
-    margin:0;
-    padding: 0;
-
-}
-
 .cabecalho {
-    background-color: rgb(218, 138, 175);
+    background-color: #0a0099;
     color: white;
     display: flex;
     padding: 24px;
     font-size: 24px;
     justify-content: space-around;
-    border-radius: 5%;
 }
-
+*{
+    margin: 0;
+    padding: 0;
+}
 .cabecalho-imagem{
     width: 30%;
     height: 30%;
-    
 }
-.cabecalho-lista-item{
-display: inline-block;
+.cabecalho-lista-item {
+    display: inline-block;
+    padding: 24px;
+    margin: 24px;
+}
+.Filosofia {
+    background-image: linear-gradient(#004bd6 #4b4b4b);
+    color: aliceblue;
+    font-size: 24px;
+    padding: 100px 50px;
+}
+.Filosofia-título {
+    padding: 20px 10px;
 }
